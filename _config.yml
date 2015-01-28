@@ -1,15 +1,15 @@
-name: Minimal-Block
-description: Minimalistic, friendly, responsive.
-url: http://yoursite.com
+name: 24-Lamb
+description: code and thought 
+url: http://24hours.github.io
 markdown: redcarpet
 paginate: 5
 highlighter: pygments
 
 rss-feed-limit: 10
 
-disqus-id: yourusername
-twitter: yourusername
-github: yourusername
-google: +yourusername
+disqus-id: 24sinner
+twitter: sindrosa
+github: 24hours
+google: 116936874740701065822
 
 permalink: /:title
