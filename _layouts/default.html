@@ -48,12 +48,25 @@
             <a href="https://plus.google.com/{{ site.google }}" title="Profile in Google+" target="_blank">Google+</a>
             <a href="{{ site.url }}/feed.xml" title="Suscribe to RSS" target="_blank">rss</a>
         </div>
-
+        <div class="module links color-3">
+            <gcse:search></gcse:search>
+        </div>
     </header>
 
     {{ content }}
 
     {% include footer.html %}
-
+<script>
+  (function() {
+    var cx = '008744453229471011401:us-ifrw_nn8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 </body>
 </html>
