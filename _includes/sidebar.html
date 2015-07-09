@@ -1,0 +1,62 @@
+<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="{{ site.BASE_PATH }}/">
+		<h1>{{ site.name }}</h1>
+	</a>
+
+	<h3 class="title">
+        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+    </h3>
+</header>
+
+{% if site.author.bio %}
+<div id="bio" class="text-center">
+	{{ site.author.bio }}
+</div>
+{% endif %}
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		{% if site.author.github %}
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
+				Github
+			</a>
+		</li>
+		{% endif %}
+		{% if site.author.twitter %}
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
+				Twitter
+			</a>
+		</li>
+		{% endif %}
+		{% if site.author.email %}
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
+				Email
+			</a>
+		</li>
+		{% endif %}
+	</ul>
+
+	<ul class="list-unstyled">
+		<li><h3><a href="{{ site.BASE_PATH }}/about">About</a></h3></li>
+		<li><h3><a href="http://24hours.gitbooks.io/notebook/content/">Book</a></h3></li>
+	</ul>
+	<script>
+	  (function() {
+	    var cx = '008744453229471011401:us-ifrw_nn8';
+	    var gcse = document.createElement('script');
+	    gcse.type = 'text/javascript';
+	    gcse.async = true;
+	    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+	        '//cse.google.com/cse.js?cx=' + cx;
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(gcse, s);
+	  })();
+	</script>
+	<gcse:searchbox-only></gcse:searchbox-only>
+
+</div>
+<!-- sidebar.html end -->
