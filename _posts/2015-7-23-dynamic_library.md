@@ -14,7 +14,7 @@ Interested reader can familiarize themself with Executable and Linking file (ELF
 # Index
 [Source Code](#sourcecode)  
 [Static Linking](#static)  
-[Dynamic Linking](#dynamic) 
+[Dynamic Linking](#dynamic)  
 [Summary](#summary)
 
 ## <a name=sourcecode></a> Source code 
