@@ -2,6 +2,8 @@ name: 24-Lamb
 description: code and thought 
 url: http://24hours.github.io
 markdown: redcarpet
+redcarpet:
+  extensions: [tables]
 paginate: 5
 highlighter: pygments
 
