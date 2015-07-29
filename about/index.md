@@ -9,14 +9,14 @@ title: About Me
 Student in Yonsei Univesity in Multimedia Security Lab
 <br />
 
-<h4><span class="glyphicon glyphicon-user"></span> Summary</h4>
+<h4>Summary</h4>
 <hr />
 I'm currently taking Master Course for Electronic and Electrical Engineering. 
 My research area is about pattern recognition , machine learning and biometric. 
 I do some infosec related hobby in my free time 
 
 <br />
-<h4><span class="glyphicon glyphicon glyphicon-book"></span> Education</h4>
+<h4>Education</h4>
 <hr />
 <table style="border: 0px none white">
 	<tr>
@@ -39,7 +39,7 @@ I do some infosec related hobby in my free time
 </tr>
 </table>
 
-<h4><span class="glyphicon glyphicon-paperclip"></span> Working Experience</h4>
+<h4>Working Experience</h4>
 <hr />
 <table style="border: 0px none white">
 	<tr>

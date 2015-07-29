@@ -2,16 +2,27 @@ name: 24-Lamb
 description: code and thought 
 url: http://24hours.github.io
 markdown: redcarpet
+highlighter: pygments
 redcarpet:
   extensions: [tables]
-paginate: 5
-highlighter: pygments
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-rss-feed-limit: 10
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Mulsec
 
-disqus-id: 24sinner
-twitter: sindrosa
-github: 24hours
-google: 116936874740701065822
+author:
+  name: Lee Yeong Khang
+  email: sindrosa.24@gmail.com
+  github: 24hours
+  twitter: sindrosa
+  bio: Read, Do, Write, Repeat
+  disqus-id: 24sinner
 
-permalink: /:title
+BASE_PATH:
