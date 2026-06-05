@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getBlogPosts } from '../../utils/posts';
+
+const blogPosts = await getBlogPosts();
+const canonicalUrl = new URL('/blog/', Astro.site).href;
+---
+
+<BaseLayout title="Blog" pageId="blog" canonicalUrl={canonicalUrl} hiddenPageTitle>
+  <div style="margin-bottom: 3rem">
+    <div>人生到处知何似？应似飞鸿踏雪泥。</div>
+    <div>泥上偶然留指爪，鸿飞那复计东西。</div>
+  </div>
+
+  <div class="post-list">
+    {blogPosts.length === 0 ? (
+      <p class="empty-state">No posts yet.</p>
+    ) : (
+      blogPosts.map((post) => <PostCard post={post} />)
+    )}
+  </div>
+
+  <div style="margin-top: 3rem; opacity:0.3">所以为什么以英语为主的网站，博客却多是华语的？</div>
+</BaseLayout>

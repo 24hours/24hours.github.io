@@ -1,34 +1,24 @@
-dbyll
-=====
+# 2424
 
-Open source stylish, minimalistic theme for jekyll.  
-Demo: http://dbtek.github.io/dbyll/
+Personal blog for Lee Yeong Khang, built with [Astro](https://astro.build) and the [Aonote](https://astro.build/themes/details/aonote/) theme.
 
-## New
-Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
+## Development
 
-### Features
-- Responsive layout.
-- Supports tags and categories.
-- Social profile and bio of author.
-- Bootstrap based.
-- Glyphicon and Font-Awesome Icons.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
+```bash
+npm install
+npm run dev
+```
 
+## Build
 
-### Download
-* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
+```bash
+npm run build
+```
 
-### Screenshots
+The site deploys to GitHub Pages from `dist/` via `.github/workflows/deploy-pages.yml`.
 
-![dbyll-screenshot](	assets/media/dbyll-ss.png)
+## Content
 
-### License
-- [MIT](http://opensource.org/licenses/MIT)
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/dbyll/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+- Posts: `src/content/posts/`
+- Pages: `src/content/pages/`
+- Site config: `src/site.config.ts`
