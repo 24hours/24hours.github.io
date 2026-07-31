@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^6.4.4",
+    "astro": "^7.1.4",
     "hast-util-from-html": "^2.0.3",
     "image-size": "^2.0.2",
     "mdast-util-to-string": "^4.0.0",
@@ -48,7 +48,7 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.9",
-    "typescript": "^6.0.3"
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^7.0.2"
   }
 }
