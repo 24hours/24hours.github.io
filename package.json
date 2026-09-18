@@ -31,10 +31,10 @@
     "node": ">=22.12.0"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3",
-    "astro": "^6.4.4",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.2",
     "hast-util-from-html": "^2.0.3",
-    "image-size": "^2.0.2",
+    "image-size": "^2.0.4",
     "mdast-util-to-string": "^4.0.0",
     "remark-deflist": "^1.0.0",
     "remark-directive": "^4.0.0",
@@ -43,12 +43,12 @@
     "remark-gfm": "^4.0.1",
     "remark-math": "^6.0.0",
     "remark-parse": "^11.0.0",
-    "temml": "^0.13.2",
+    "temml": "^0.13.5",
     "unified": "^11.0.5",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.9",
-    "typescript": "^6.0.3"
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^7.0.2"
   }
 }
